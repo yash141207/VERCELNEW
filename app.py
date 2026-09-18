@@ -139,7 +139,7 @@ async def send_single_like_request(encrypted_like_payload, token_dict, url):
         'Authorization': f"Bearer {token_value}",
         'Content-Type': "application/x-www-form-urlencoded",
         'Expect': "100-continue",
-        'X-Unity-Version': "2018.4.11f1",
+        'X-Unity-Version': "2018.4.12f1",
         'X-GA': "v1 1",
         'ReleaseVersion': "OB55"
     }
@@ -196,7 +196,7 @@ def make_profile_check_request(encrypted_profile_payload, server_name, token_dic
         'Authorization': f"Bearer {token_value}",
         'Content-Type': "application/x-www-form-urlencoded",
         'Expect': "100-continue",
-        'X-Unity-Version': "2018.4.11f1",
+        'X-Unity-Version': "2018.4.12f1",
         'X-GA': "v1 1",
         'ReleaseVersion': "OB55"
     }
